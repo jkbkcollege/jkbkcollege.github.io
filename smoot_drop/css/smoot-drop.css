@@ -1,0 +1,55 @@
+.flexdropdownmenu, .flexdropdownmenu ul{ /*topmost and sub ULs, respectively*/
+font: normal 12px "Trebuchet MS", Arial, sans-serif;
+margin:2px 0px 0px 0px;
+padding:0px;
+position: absolute;
+left: 0;
+top: 10px;
+list-style-type: none;
+background:#FFFFFF;
+border:1px solid #f2f2f2;
+border-top:none;
+
+visibility: hidden;
+opacity:0.94;
+display: none; /*collapse all sub menus to begin with*/
+box-shadow: 2px 2px 3px #CCC; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 3px 3px 3px #CCC;
+/*-moz-box-shadow: 3px 3px 8px #818181;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+*/
+}
+.flexdropdownmenu li{
+position: relative;
+}
+.flexdropdownmenu li a{
+display: block;
+width:135px; /*width of menu (not including side paddings)*/
+color:#60724d;
+background:#f1f5ed url("../../images/dot.gif") no-repeat left 50%;
+background-repeat:no-repeat;
+border-bottom: 1px solid #b7c69b;
+text-decoration: none;
+padding:4px 3px 4px 35px;
+}
+.flexdropdownmenu li a:hover{
+display: block;
+width:135px; /*width of menu (not including side paddings)*/
+color:#66735a;
+background:#fdfefc url("../../images/dot.gif") no-repeat left 50%;
+background-repeat:no-repeat;
+border-bottom: 1px solid #b7c69b;
+text-decoration: none;
+padding:4px 3px 4px 35px;
+}
+* html .flexdropdownmenu li{ /*IE6 CSS hack*/
+display: inline-block;
+width: 135px; /*width of menu (include side paddings of LI A*/
+}
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+

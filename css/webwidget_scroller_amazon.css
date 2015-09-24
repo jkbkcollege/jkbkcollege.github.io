@@ -1,0 +1,47 @@
+
+#banner{
+	width:145px;
+	height:100px;
+	float:left;
+
+}
+.webwidget_scroller_amazon{
+    padding: 0px;
+    margin: 0px;
+}
+.webwidget_scroller_amazon .webwidget_scroller_simple2_nav{
+    position: absolute;
+}
+.webwidget_scroller_amazon .webwidget_scroller_simple2_nav li{
+    cursor: pointer;
+    position: absolute;
+}
+.webwidget_scroller_amazon .webwidget_scroller_simple2_mask{
+    position: absolute;
+     overflow: hidden;
+}
+.webwidget_scroller_amazon ul{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+	display:block;
+}
+.webwidget_scroller_amazon ul li{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    display:block;
+}
+.webwidget_scroller_amazon ul li a{
+    text-decoration: none;
+}
+.webwidget_scroller_amazon ul li a:hover{
+    text-decoration: underline;
+}
+.webwidget_scroller_amazon ul li a img{
+    border: none;
+}

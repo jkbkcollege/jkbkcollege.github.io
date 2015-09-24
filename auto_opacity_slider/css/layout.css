@@ -1,0 +1,61 @@
+/***************************  SIDEBAR SLIDESHOW + BOXES   ***************************/
+
+.mini-slideshow, .email-updates, .square-advt {
+	background:none;
+	width:740px;
+	margin:0 0px 0 0px;
+	padding:0px 0px;
+	position:relative;
+}
+.square-advt {
+	padding:0px 0px 0px 0px;
+	width:180px;
+	height:300px;
+}
+.square-advt img{
+	width:180px;
+	height:250px;
+}
+.mini-slideshow h3, .email-updates h3{
+	width:180px;
+	border-bottom:solid 1px #dbdbdb;
+	padding:0 0 6px 0;
+	margin:0 0 10px 4px;
+}
+.mini-slideshow ol{
+	margin:0 0px;
+	width:180px;
+	padding:0px;
+	background-color:none;
+	list-style-type:none;
+}
+.mini-slideshow li p, .mini-slideshow li p a{
+	font:Arial, Helvetica, sans-serif;
+	color:#0f0308;
+	font-size:11px;
+	text-align:center;
+	padding:6px 0 2px 4px;
+}
+
+.mini-slideshow a#prev-sld, .mini-slideshow a#next-sld{
+	position:absolute;
+	top:140px;
+	left:0px;
+	z-index:99;
+	background:url("../images/btn-prev.gif")  /*left -316px no-repeat*/;
+	display:block;
+	width:63px;
+	height:32px;
+	text-indent:-9000em;
+	cursor:hand;
+}
+.mini-slideshow a#next-sld {
+	background:url("../images/btn-next.gif") /*left -300px no-repeat*/;
+	top:138px;
+	left:677px;
+}
+.mini-slideshow a#prev-sld:hover, .mini-slideshow a#next-sld:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+	opacity: 0.6;
+}
