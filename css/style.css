@@ -16,8 +16,9 @@ a { text-decoration:none; color:#4f5720}
 a:hover { text-decoration:none;}
 
 .ban_squ {
-	background:#FFFFFF;
-	border:1px solid #660000;
+	border:0px;
+	border-top:1px solid #660000;
+	border-bottom:1px solid #BDC0B7;
 }
 
 h2 {
